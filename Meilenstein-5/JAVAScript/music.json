@@ -1,0 +1,66 @@
+{
+    "Musikfavoriten" : [
+	{
+	"1": {
+		"interpreter": "Farin Urlaub",
+		"title": "Faszination Weltraum",
+		"year": "2014",
+		"genre": "Punk"
+	},
+	"2": {
+		"interpreter": "Die Ärzte",
+		"title": "Planet Punk",
+		"year": "1995",
+		"genre": "Punk"
+	},
+	"3": {
+		"interpreter": "The Offspring",
+		"title": "Smash",
+		"year": "1994",
+		"genre": "Punk"
+	},
+	"4": {
+		"interpreter": "Blink 182",
+		"title": "Enema of the State",
+		"year": 1999,
+		"genre": "Punk"
+	},
+		"5": {
+		"interpreter": "Rise Against",
+		"title": "Siren Song of the Counter Culture",
+		"year": 2004,
+		"genre": "Punk"
+	},
+		"6": {
+		"interpreter": "Vampire Weekend",
+		"title": "Vampire Weekend",
+		"year": 2007,
+		"genre": "Punk"
+	},
+		"7": {
+		"interpreter": "Bouncing Souls",
+		"title": "How I spent my summer vacation",
+		"year": 2001,
+		"genre": "Punk"
+	},
+		"8": {
+		"interpreter": "Beatsteaks",
+		"title": "Living Targets",
+		"year": 2002,
+		"genre": "Punk"
+	},
+		"9": {
+		"interpreter": "Bloc Party",
+		"title": "Silent Alarm",
+		"year": 2005,
+		"genre": "Punk"
+	},
+		"10": {
+		"interpreter": "WIZO",
+		"title": "Anderster",
+		"year": 2004,
+		"genre": "Punk"
+	}
+	}
+	]
+}

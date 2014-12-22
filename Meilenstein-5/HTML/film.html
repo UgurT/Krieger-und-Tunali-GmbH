@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="de">
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+		<title>Krieger&Tunali GmbH film</title>
+		<link rel="stylesheet" media="screen" href="../CSS/FilmUndMusik.css"/>
+		<script src="../JAVAScript/film_check.js"></script>
+	</head>
+	<body>
+	    <p id="überschrift">Film <a id="homelink" href="../HTML/home.html">(zurück)</a></p>
+        <a id="FavLink" href="favoriten.html">>>Meine Favoriten<<</a>
+	<div id="tabelle" class="boxed">
+	<form name="Formular" action="http://localhost/xampp/5.Uebung/PHP/immdb.php" onsubmit="return checkFilmFormular()" method="GET">
+	<table>
+		<tr>
+			<td width="50%" height="50"><b>Filmtitel</b></td>
+			<td><input size="32" type="text" name="filmtitel"/><td>
+		</tr>	
+		<tr>	
+			<td width="50%" height="50"><b>Regie</b></td>
+			<td><input size="32" type="text" name="regie"/><td>
+		</tr>
+		<tr>
+			<td width="50%" height="50"><b>Drehbuch</b></td>
+			<td><input size="32" type="text" name="drehbuch"/><td>
+		</tr>
+		<tr>
+		    <td width="50%" height="50"><b>Erscheinungsjahr</b></td>
+			<td><input size="32" type="text" name="filmerscheinungsjahr"/><td>
+		</tr>
+		<tr>
+			<td width="50%" height="50"><b>Schauspieler</b></td>
+			<td><textarea name="schauspieler" cols="25" rows="5"></textarea><td>
+		</tr>
+		<tr>
+			<td width="50%" height="50"><b>Genre</b></td>
+			<td><select name="filmgenre">
+			        <option value="genreHorror" selected="selected">Horror</option>
+				    <option value="genrePsyco">Psyco</option>
+				    <option value="genreKrimi">Krimi</option>
+				    <option value="genreDoku">Doku</option>
+				    <option value="genreKomödie">Komödie</option>
+				    <option value="genreRomanze">Romanze</option>
+				    </select>
+		</tr>	
+		<tr>	
+			<td width="50%" height="50"><b>Als Favoirt makieren</b></td>
+			<td><input type="checkbox" name="filmfavorit" value="leer"/><br/>
+		</tr>
+		<tr>
+		    <td><input id="button" type="submit" name="filmGET" value="Film anlegen"/></td>
+		</tr>
+		<figure>
+		<div id="bild"> 
+	    <img src="../LOGO/Working-Eating-above-Manhattan.jpg" height="70%" width="100%"/> 
+	    <figcaption>Krieger&Tunali GmbH</figcaption> 
+	    </div>
+		</figure>
+	</table>
+	</form>
+	</div>
+	</body>
+</html>

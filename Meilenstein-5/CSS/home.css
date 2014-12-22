@@ -1,0 +1,83 @@
+@media screen{ 
+    body{
+	background-color: rgb(26,32,94);
+    color: white;
+	font-weight: bold;
+	font-family: arial;
+	}
+	    body span.rot{
+	        color: rgb(136,0,22);
+		}
+	    #LinkerGroßerRahmen.boxed{
+	    width: 50%;
+		height: 950px;
+		border-color: white;
+		border-right: 3px solid;
+	    }
+	        #LinkeÜberschrift{
+	    	font-size: 48px;
+		    text-align: right;
+	        }
+	        #filmbox.boxed{
+		    width: 32%;
+		    height: 20%;
+		    margin-top: 25%;
+		    margin-left: 67.5%;
+		    border-color: white;
+		    border-top: 8px solid;
+		    border-bottom: 8px solid;	
+		    border-left: 8px solid;
+		    padding-top: 10%;
+	        }
+	            #filmbox:hover{
+	            background-color: rgb(165,169,230);
+	            }
+	            #film{
+	            margin-left:25%;
+		        color: white;
+                font-size: 48px;
+		        text-decoration: none;
+	            }
+				    #film:hover{
+	                color: black;
+                    }
+		#RechterGroßerRahmen.boxed{
+	    width: 50%;
+		height: 950px;
+		margin-top: -951px;
+		margin-left: 50.2%;
+		}
+            #RechteÜberschrift{
+	        font-size: 48px;
+		    text-align: left;
+	        }
+			#musikbox.boxed{
+	        width: 32%;
+		    height: 20%;
+		    margin-top: 25.1%;
+		    margin-right: 70%;
+		    margin-left: -1px;
+		    border-color: white;
+		    border-top: 8px solid;
+		    border-right: 8px solid;
+		    border-bottom: 8px solid;
+		    padding-top:10%;
+	        }
+	            #musikbox:hover{
+		        background-color: rgb(165,169,230);
+	            }
+	            #musik{
+	            margin-left:25%;
+	            color: white;
+	            font-size: 48px;
+		        text-decoration: none;
+	            }
+	                #musik:hover{
+	                color: black;
+	                }
+	#bild{
+	position: absolute;
+    bottom: 2%; 
+    right: 2%; 
+    } 	  
+} 

@@ -1,0 +1,84 @@
+{
+   "Filmfavoriten" : [
+       {
+           "1": {
+               "Filmtitel": "A Clockwork Orange",
+               "Regie": "Stanley",
+               "Drehbuch": "Stanley Kubrick",
+               "Erscheinungsjahr": 1971,
+               "Genre": "Komödie"
+           },
+           "2": {
+               "Filmtitel": "Love Exposure",
+               "Regie": "Haruo Umekawa",
+               "Drehbuch": "Sion Sono",
+               "Erscheinungsjahr": 2008,
+               "Genre": "Psycho"
+           },
+           "3": {
+               "Filmtitel": "Richy Guitar",
+               "Regie": "Michael Laux",
+               "Drehbuch": "Michael Laux",
+               "Erscheinungsjahr": 1985,
+               "Genre": "Komödie"
+           },
+           "4": {
+               "Filmtitel": "Inglourious Basterds",
+               "Regie": "Quentin Tarantino",
+               "Drehbuch": "Quentin Tarantino",
+               "Erscheinungsjahr": 2009,
+               "Genre": "Komödie"
+           },
+           "5": {
+               "Filmtitel": "Léon - der Profi",
+               "Regie": "Luc Besson",
+               "Drehbuch": "Luc Besson",
+               "Erscheinungsjahr": "1994",
+               "Genre": "Romanze"
+           },
+           "6": {
+               "Filmtitel": "Das Schicksal ist ein mieser Verräter",
+               "Regie": "Josh Boone",
+               "Drehbuch": "Scott Neustädter",
+               "Erscheinungsjahr": 2014,
+               "Genre": "Romanze"
+           },
+           "7": {
+               "Filmtitel": "Tatsächlich ... Liebe",
+               "Regie": " Richard Curtis",
+               "Drehbuch": "Richard, Curtis",
+               "Erscheinungsjahr": 2003,
+               "Genre": "Romanze"
+           },
+           "8": {
+               "Filmtitel": "Crank",
+               "Regie": "Mark Neveldine",
+               "Drehbuch": "Mark Neveldine",
+               "Erscheinungsjahr": 2006,
+               "Genre": "Komödie"
+           },
+           "9": {
+               "Filmtitel": "Snatch",
+               "Regie": "Guy Ritchie",
+               "Drehbuch": "Guy Ritchie",
+               "Erscheinungsjahr": 2000,
+               "Genre": "Komödie"
+           },
+           "10": {
+               "Filmtitel": "Trainspotting",
+               "Regie": "Danny Boyle",
+               "Drehbuch": "John Hodge",
+               "Erscheinungsjahr": 1996,
+               "Genre": "Komödie"
+           },
+           "11": {
+               "Filmtitel": "The Transporter",
+               "Regie": "Louis Leterrier",
+               "Drehbuch": "Luc Besson",
+               "Erscheinungsjahr": 2002,
+               "Genre": "Krimi"
+           }
+       }
+	]
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+		<title>Krieger&Tunali GmbH home</title>
+	    <link rel="stylesheet" media="screen" href="../CSS/favoriten.css"/>
+        <script type="text/javascript" src="favoriten_script.js"></script>
+	</head>
+	<body onload="createTable()">
+		<h1 id="überschrift"><span class="rot">M</span>eine<span class="rot"> F</span>avoriten</h1>
+		<table id="navTable" class="boxed">
+		    <tr>
+				<th id="leftsite"><a href="#" onclick="switchTable('music')">Meine Musikfavoriten</a></th>
+				<th id="rightsite" class="active"><a href="#" onclick="switchTable('film')">Meine Filmfavoriten</a></th>
+			</tr>
+        </table>
+        <table id="tableMusic" class="content-table boxed hideTable">
+		    <tr><th>Interpreter</th><th>Albumtitel</th><th>Erscheinungsjahr</th><th>Genre</th></tr>
+        </table>
+		
+		<table id="tableFilm" class="content-table boxed">
+            <tr><th>Titel</th><th>Regie</th><th>Autor</th><th>Erscheinungsjahr</th><th>Genre</th></tr>
+		</table>
+	</body>
+</html>
